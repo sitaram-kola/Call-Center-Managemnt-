@@ -31,10 +31,10 @@ def main():
     
 
     # Load users and call logs from CSVs and write analytics
-    load_and_clean_users("../../resources/users.csv")
-    load_and_clean_call_logs("../../resources/callLogs.csv")
-    write_user_analytics("../../resources/userAnalytics.csv")
-    write_ordered_calls("../../resources/orderedCalls.csv")
+    load_and_clean_users("/C:/Users/gani1/call center management/resources/users.csv")
+    load_and_clean_call_logs("/C:/Users/gani1/call center management/resources/callLogs.csv")
+    write_user_analytics("/C:/Users/gani1/call center management/resources/userAnalytics.csv")
+    write_ordered_calls("/C:/Users/gani1/call center management/resources/orderedCalls.csv")
 
     # Close the cursor and connection
     cursor.close()
